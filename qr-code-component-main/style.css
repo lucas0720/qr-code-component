@@ -1,0 +1,50 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+    
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    padding: 1.25rem; /* Margen de seguridad para que la tarjeta no toque los bordes en móviles */
+}
+
+.CARDQR{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1.5rem;
+    padding: 1rem;
+    max-width: 18rem;
+    text-align: center;
+
+}
+
+.CARDQR img{
+    width: 100%;
+    border-radius: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.CARDQR h1{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: hsl(218, 44%, 22%);
+    line-height: 1.2;
+    
+}
+
+.ContenidoCard{
+    padding: 1rem;
+}
+
+.CARDQR p{
+    font-size: 0.8rem;
+    color: hsl(216, 15%, 48%);
+    line-height: 1.2;
+    margin-bottom: 1.25rem;
+}
